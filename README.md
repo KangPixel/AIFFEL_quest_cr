@@ -4,13 +4,13 @@ AIFFEL_quest_cr
 │   ├── Quest01
 │   │   ├── .ipynb
 │   │   └── README.md
-|		├── Quest02
+|   ├── Quest02
 │   │   ├── .ipynb
 │   │   └── README.md
-|		├── Quest03
+|   ├── Quest03
 │   │   ├── .ipynb
 │   │   └── README.md
-|		├── Quest04
+|   ├── Quest04
 │   │   ├── .ipynb
 │   │   └── README.md
 |   ├── Quest05
@@ -29,10 +29,10 @@ AIFFEL_quest_cr
 │   ├── Py01
 │   │   ├── .ipynb
 │   │   └── README.md
-|		├── Py02
+|   ├── Py02
 │   │   ├── .ipynb
 │   │   └── README.md
-|		├── Py03
+|   ├── Py03
 │   │   ├── .ipynb
 │   │   └── README.md
 │   └── Py04
@@ -42,13 +42,13 @@ AIFFEL_quest_cr
 │   ├── Ft01
 │   │   ├── .ipynb
 │   │   └── README.md
-|		├── Ft02
+|   ├── Ft02
 │   │   ├── .ipynb
 │   │   └── README.md
-|		├── Ft03
+|   ├── Ft03
 │   │   ├── .ipynb
 │   │   └── README.md
-|		├── Ft04
+|   ├── Ft04
 │   │   ├── .ipynb
 │   │   └── README.md
 │   └── Ft08
