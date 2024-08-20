@@ -59,7 +59,7 @@ AIFFEL_quest_cr
 |   ├── Ft04
 │   │   ├── .ipynb
 │   │   └── README.md
-│   └── Ft08
+│   └── Ft05
 │       ├── .ipynb
 │       └── README.md
 └── Exploration
