@@ -51,7 +51,7 @@ class PomodoroTimer {
     int minutes = currentTime ~/ 60;
     int seconds = currentTime % 60;
     String formattedTime = '${minutes.toString().padLeft(2, '0')}:${seconds.toString().padLeft(2, '0')}';
-    print(isWorking ? 'flutter: 작업 시간:  $formattedTime' : 'flutter: 휴식 시간: $formattedTime');
+    print(isWorking ? 'flutter: 작업 시간:  $formattedTime' : 'flutter: 휴식 시간: $formattedTime');  // 작업 시간과 휴식시간을 알아보기 편하게 따로 체크
   }
 }
 
