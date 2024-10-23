@@ -18,18 +18,18 @@
 
 ## 앱 구조도
 
-![AI-UX-4-2-08 original](https://github.com/rudykim2003/AIFFEL_QUEST/assets/86637005/1a237b3c-912b-4763-9f13-22fe714549dc)
-
+![구조도](https://github.com/user-attachments/assets/bb50e11d-8889-4c11-9d2c-4e1e42bd384d)  
 
 
 ## 앱 와이어프레임 (사용 툴 : 0000)
 
-![AI-UX-4-2-11_j7hKLsb original](https://github.com/rudykim2003/AIFFEL_QUEST/assets/86637005/538223ca-bc1c-4a0a-a4f6-17f27fc9a6f4)
+![앱_와이어프레임](https://github.com/user-attachments/assets/0e05d7b4-fcd3-4610-adc6-874fdfe81e5f)  
+
 
 
 ## 프로토타이핑 (사용 툴 : 0000)
 
-![AI-UX-4-2-13 original](https://github.com/rudykim2003/AIFFEL_QUEST/assets/86637005/276a76a9-dadc-47c0-a9d3-169e7c033693)
+![프로토타이핑](https://github.com/user-attachments/assets/e2ac9534-4802-4b7e-a42b-7ce4a277a7de)  
 
 
 
@@ -41,7 +41,8 @@
 
 
 ## 구현영상 
-https://github.com/rudykim2003/AIFFEL_QUEST/assets/86637005/c7f3c3ae-5a26-41ac-bfb0-9cf11bbd074b
+https://github.com/user-attachments/assets/b4bb3734-5a3c-4907-8ef3-46b089f450de  
+
 
 
 
@@ -54,7 +55,4 @@ https://github.com/rudykim2003/AIFFEL_QUEST/assets/86637005/c7f3c3ae-5a26-41ac-b
 ## 회고
 
 
-구현된 어플리케이션을 분석하고 재설계하는 부분이 재미있었습니다.     
-하지만 아직 플러터가 익숙하지 않아서 구현에 많은 어려움이 있었습니다.      
-더 많이 연습해서 최종 프로젝트인 아이펠톤에서는 나만의 AI 어플리케이션을 만들어낼겁니다.     
-화이팅!!!
+
