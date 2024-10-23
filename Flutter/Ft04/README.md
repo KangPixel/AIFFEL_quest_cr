@@ -35,9 +35,10 @@ https://marvelapp.com/project/7167828/?utm_campaign=prototype-player&utm_source=
 
 
 ## 페이지 구현
-1. ChatScreen - 채팅방 목록 부분으로 처음 키면 나오는 초기 화면입니다.
-2. ChatUserPage - 특정 유저를 누를 시 들어가는 채팅 화면
-3. StoreScreen - 물건들을 살 수있는 상점 화면
+- main.dart - main 한 곳에서 코딩 함.
+  1. ChatScreen - 채팅방 목록 부분으로 처음 키면 나오는 초기 화면입니다.
+  2. ChatUserPage - 특정 유저를 누를 시 들어가는 채팅 화면
+  3. StoreScreen - 물건들을 살 수있는 상점 화면
 
 
 
