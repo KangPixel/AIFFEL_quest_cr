@@ -21,13 +21,14 @@
 ![구조도](https://github.com/user-attachments/assets/bb50e11d-8889-4c11-9d2c-4e1e42bd384d)  
 
 
-## 앱 와이어프레임 (사용 툴 : 0000)
+## 앱 와이어프레임 (사용 툴 : 노트, 필기구)
 
 ![앱_와이어프레임](https://github.com/user-attachments/assets/0e05d7b4-fcd3-4610-adc6-874fdfe81e5f)  
 
 
 
-## 프로토타이핑 (사용 툴 : 0000)
+## 프로토타이핑 (사용 툴 : marvelapp)  
+https://marvelapp.com/project/7167828/?utm_campaign=prototype-player&utm_source=other&utm_medium=web-app&utm_term=player&utm_content=edit-project  
 
 ![프로토타이핑](https://github.com/user-attachments/assets/e2ac9534-4802-4b7e-a42b-7ce4a277a7de)  
 
@@ -53,6 +54,7 @@ https://github.com/user-attachments/assets/b4bb3734-5a3c-4907-8ef3-46b089f450de
 - FontAwesome
 
 ## 회고
+현재 존재하는 어플을 따라 만들어보니 생각보다 험난하고 기능이 많구나 느껴졌고 버튼 하나도 여러 모양과 사용되는 종류들이 있어서 신기했습니다. 아직 미구현 부분이 많아서 아쉽지만 계속 하다보면 저만의 어플을 만들 수 있다는 생각에 동기부여 되는 날이였습니다.  
 
 
 
