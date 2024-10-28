@@ -27,7 +27,7 @@ class JellyfishClassifier extends StatefulWidget {
 class _JellyfishClassifierState extends State<JellyfishClassifier> {
   String _result = '';
 
-  Future<void> _predictClass() async {
+  Future<void> _predictClass() async {                       // 서버 URL을 직접 박아둠
     final url = Uri.parse('http://127.0.0.1:8000/predict');  // 서버 URL 입력 https://2268-211-210-116-230.ngrok-free.app/sample
     final response = await http.get(url);
 
