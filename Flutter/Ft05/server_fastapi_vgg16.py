@@ -52,3 +52,7 @@ if __name__ == "__main__":
             port=5000,   # Listen on port 5000 
             log_level="info"   # Log level
             )
+
+/*
+    도대체 무엇때문에 잘만 ngrok에 연결된 서버가 안되는가!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
