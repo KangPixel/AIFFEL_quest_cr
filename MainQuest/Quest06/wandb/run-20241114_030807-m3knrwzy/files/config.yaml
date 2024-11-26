@@ -1,0 +1,75 @@
+wandb_version: 1
+
+epoch:
+  desc: null
+  value: 7
+learning_rate:
+  desc: null
+  value: 0.0792180639599159
+input:
+  desc: null
+  value:
+  - 28
+  - 28
+  - 1
+filter:
+  desc: null
+  value: 16
+kernel:
+  desc: null
+  value:
+  - 3
+  - 3
+activation:
+  desc: null
+  value: relu
+optimizer:
+  desc: null
+  value: adam
+loss:
+  desc: null
+  value: sparse_categorical_crossentropy
+metrics:
+  desc: null
+  value:
+  - accuracy
+batch_size:
+  desc: null
+  value: 32
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.7
+    cli_version: 0.16.0
+    framework: keras
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1731553687.3864
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      2:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      3:
+      - 2
+      - 3
+      - 8
+      - 16
+      - 23
+      - 37
+      4: 3.9.7
+      5: 0.16.0
+      8:
+      - 1
+      - 5
+      10:
+      - 9
+      13: linux-x86_64

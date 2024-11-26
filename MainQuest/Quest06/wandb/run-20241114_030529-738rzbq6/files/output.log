@@ -1,0 +1,21 @@
+Epoch 1/5
+
+
+1875/1875 [==============================] - 6s 3ms/step - loss: 2.3263 - accuracy: 0.1028 - val_loss: 2.3055 - val_accuracy: 0.1130
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030529-738rzbq6/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030529-738rzbq6/files/model-best)... Done. 0.0s
+Epoch 2/5
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3099 - accuracy: 0.1030 - val_loss: 2.3091 - val_accuracy: 0.1026
+Epoch 3/5
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3103 - accuracy: 0.1066 - val_loss: 2.3106 - val_accuracy: 0.0976
+Epoch 4/5
+
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3101 - accuracy: 0.1019 - val_loss: 2.3076 - val_accuracy: 0.1130
+Epoch 5/5
+
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3099 - accuracy: 0.1036 - val_loss: 2.3090 - val_accuracy: 0.0920
+157/157 - 0s - loss: 2.3059 - accuracy: 0.0996

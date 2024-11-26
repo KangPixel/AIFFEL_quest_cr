@@ -1,0 +1,26 @@
+Epoch 1/6
+
+
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.1312 - accuracy: 0.9587 - val_loss: 0.0418 - val_accuracy: 0.9864
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030615-bwyxe8lp/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030615-bwyxe8lp/files/model-best)... Done. 0.0s
+Epoch 2/6
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.0527 - accuracy: 0.9840 - val_loss: 0.0391 - val_accuracy: 0.9860
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030615-bwyxe8lp/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030615-bwyxe8lp/files/model-best)... Done. 0.0s
+Epoch 3/6
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.0410 - accuracy: 0.9873 - val_loss: 0.0773 - val_accuracy: 0.9770
+Epoch 4/6
+
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.0337 - accuracy: 0.9892 - val_loss: 0.0536 - val_accuracy: 0.9842
+Epoch 5/6
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.0283 - accuracy: 0.9913 - val_loss: 0.0473 - val_accuracy: 0.9848
+Epoch 6/6
+
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.0269 - accuracy: 0.9916 - val_loss: 0.0502 - val_accuracy: 0.9868
+157/157 - 0s - loss: 0.0339 - accuracy: 0.9902

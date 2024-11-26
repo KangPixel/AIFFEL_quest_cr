@@ -1,0 +1,34 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Epoch 1/8
+
+
+1875/1875 [==============================] - 50s 3ms/step - loss: 0.7978 - accuracy: 0.7707 - val_loss: 0.6201 - val_accuracy: 0.8030
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_025829-r3xbllu8/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_025829-r3xbllu8/files/model-best)... Done. 0.0s
+Epoch 2/8
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.7529 - accuracy: 0.7866 - val_loss: 0.6646 - val_accuracy: 0.8068
+Epoch 3/8
+
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.6940 - accuracy: 0.7990 - val_loss: 0.5947 - val_accuracy: 0.8194
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_025829-r3xbllu8/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_025829-r3xbllu8/files/model-best)... Done. 0.0s
+Epoch 4/8
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.7368 - accuracy: 0.7889 - val_loss: 0.6671 - val_accuracy: 0.8112
+Epoch 5/8
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.7240 - accuracy: 0.7911 - val_loss: 0.6111 - val_accuracy: 0.8272
+Epoch 6/8
+
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.7387 - accuracy: 0.7899 - val_loss: 0.6375 - val_accuracy: 0.8244
+Epoch 7/8
+
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.7474 - accuracy: 0.7868 - val_loss: 0.8188 - val_accuracy: 0.7926
+Epoch 8/8
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.7612 - accuracy: 0.7813 - val_loss: 0.7322 - val_accuracy: 0.7890
+157/157 - 0s - loss: 0.7209 - accuracy: 0.7866

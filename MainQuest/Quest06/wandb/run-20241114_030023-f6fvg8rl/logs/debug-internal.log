@@ -1,0 +1,955 @@
+2024-11-14 03:00:23,625 INFO    StreamThr :353 [internal.py:wandb_internal():86] W&B internal server running at pid: 353, started at: 2024-11-14 03:00:23.624269
+2024-11-14 03:00:23,626 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status
+2024-11-14 03:00:23,650 INFO    WriterThread:353 [datastore.py:open_for_write():85] open: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/run-f6fvg8rl.wandb
+2024-11-14 03:00:23,650 DEBUG   SenderThread:353 [sender.py:send():380] send: header
+2024-11-14 03:00:23,741 DEBUG   SenderThread:353 [sender.py:send():380] send: run
+2024-11-14 03:00:24,095 INFO    SenderThread:353 [dir_watcher.py:__init__():211] watching files in: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files
+2024-11-14 03:00:24,095 INFO    SenderThread:353 [sender.py:_start_run_threads():1124] run started: f6fvg8rl with start time 1731553223.623651
+2024-11-14 03:00:24,108 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: check_version
+2024-11-14 03:00:24,109 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: check_version
+2024-11-14 03:00:24,199 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: run_start
+2024-11-14 03:00:24,213 DEBUG   HandlerThread:353 [system_info.py:__init__():32] System info init
+2024-11-14 03:00:24,213 DEBUG   HandlerThread:353 [system_info.py:__init__():47] System info init done
+2024-11-14 03:00:24,213 INFO    HandlerThread:353 [system_monitor.py:start():194] Starting system monitor
+2024-11-14 03:00:24,214 INFO    SystemMonitor:353 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-11-14 03:00:24,214 INFO    HandlerThread:353 [system_monitor.py:probe():214] Collecting system info
+2024-11-14 03:00:24,215 INFO    SystemMonitor:353 [interfaces.py:start():190] Started cpu monitoring
+2024-11-14 03:00:24,215 INFO    SystemMonitor:353 [interfaces.py:start():190] Started disk monitoring
+2024-11-14 03:00:24,217 INFO    SystemMonitor:353 [interfaces.py:start():190] Started gpu monitoring
+2024-11-14 03:00:24,218 INFO    SystemMonitor:353 [interfaces.py:start():190] Started memory monitoring
+2024-11-14 03:00:24,219 INFO    SystemMonitor:353 [interfaces.py:start():190] Started network monitoring
+2024-11-14 03:00:24,229 DEBUG   HandlerThread:353 [system_info.py:probe():196] Probing system
+2024-11-14 03:00:24,238 DEBUG   HandlerThread:353 [system_info.py:_probe_git():181] Probing git
+2024-11-14 03:00:24,252 DEBUG   HandlerThread:353 [system_info.py:_probe_git():189] Probing git done
+2024-11-14 03:00:24,252 DEBUG   HandlerThread:353 [system_info.py:probe():244] Probing system done
+2024-11-14 03:00:24,252 DEBUG   HandlerThread:353 [system_monitor.py:probe():223] {'os': 'Linux-6.1.100+-x86_64-with-glibc2.31', 'python': '3.9.7', 'heartbeatAt': '2024-11-14T03:00:24.229287', 'startedAt': '2024-11-14T03:00:23.614798', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'aiffel/AIFFEL_quest_cr/MainQuest/Quest06/Untitled.ipynb', 'codePathLocal': None, 'root': '/aiffel/aiffel/AIFFEL_quest_cr', 'git': {'remote': 'https://github.com/KangPixel/AIFFEL_quest_cr.git', 'commit': 'f1f2174faad3c6f8fdea9d5e9aa330f0c7aa2e80'}, 'email': None, 'host': 'wi5qv55j3qbt9rjdre8tla94b-6454f686b8-sr7rp', 'username': 'root', 'executable': '/opt/conda/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2199.998, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 121.81595230102539, 'used': 42.85810852050781}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 17.572715759277344}}
+2024-11-14 03:00:24,252 INFO    HandlerThread:353 [system_monitor.py:probe():224] Finished collecting system info
+2024-11-14 03:00:24,252 INFO    HandlerThread:353 [system_monitor.py:probe():227] Publishing system info
+2024-11-14 03:00:24,253 DEBUG   HandlerThread:353 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-11-14 03:00:24,254 DEBUG   HandlerThread:353 [system_info.py:_save_pip():68] Saving pip packages done
+2024-11-14 03:00:24,254 DEBUG   HandlerThread:353 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-11-14 03:00:24,802 DEBUG   HandlerThread:353 [system_info.py:_save_conda():87] Saving conda packages done
+2024-11-14 03:00:24,803 INFO    HandlerThread:353 [system_monitor.py:probe():229] Finished publishing system info
+2024-11-14 03:00:24,811 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:24,811 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-11-14 03:00:24,830 DEBUG   SenderThread:353 [sender.py:send():380] send: telemetry
+2024-11-14 03:00:24,834 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: internal_messages
+2024-11-14 03:00:24,840 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: stop_status
+2024-11-14 03:00:24,840 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: stop_status
+2024-11-14 03:00:24,885 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: get_summary
+2024-11-14 03:00:24,957 DEBUG   SenderThread:353 [sender.py:send():380] send: telemetry
+2024-11-14 03:00:24,957 DEBUG   SenderThread:353 [sender.py:send():380] send: telemetry
+2024-11-14 03:00:24,957 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:24,957 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file model-best.h5 with policy live
+2024-11-14 03:00:24,958 DEBUG   SenderThread:353 [sender.py:send():380] send: telemetry
+2024-11-14 03:00:25,097 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-metadata.json
+2024-11-14 03:00:25,097 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/conda-environment.yaml
+2024-11-14 03:00:25,097 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/requirements.txt
+2024-11-14 03:00:25,112 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/klyewqdy-wandb-metadata.json
+2024-11-14 03:00:26,008 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:26,008 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/graph/graph_summary_ad67092687004fc4b4ef.graph.json with policy now
+2024-11-14 03:00:26,009 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:00:26,010 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:00:26,096 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/graph/graph_summary_ad67092687004fc4b4ef.graph.json
+2024-11-14 03:00:26,096 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json
+2024-11-14 03:00:26,097 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:26,097 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media
+2024-11-14 03:00:26,097 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/graph
+2024-11-14 03:00:26,211 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/tt3vrk3a-media/graph/graph_summary_ad67092687004fc4b4ef.graph.json
+2024-11-14 03:00:26,481 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/lsxghofa-media/graph/graph_summary_ad67092687004fc4b4ef.graph.json
+2024-11-14 03:00:28,097 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:28,663 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status_report
+2024-11-14 03:00:30,098 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:31,394 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:31,394 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_0_5ecaf860d67f4cc1e1fb.png with policy now
+2024-11-14 03:00:31,400 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:31,400 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_0_08fd1f935081cda2c0d3.png with policy now
+2024-11-14 03:00:31,404 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:31,405 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_0_9745725945539f8f879f.png with policy now
+2024-11-14 03:00:31,406 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:31,406 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_0_507c182446aadec864b8.png with policy now
+2024-11-14 03:00:31,410 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:31,410 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_0_5a515f45d8930ff9064b.png with policy now
+2024-11-14 03:00:31,415 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:31,415 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_0_b87c86070ead80a86294.png with policy now
+2024-11-14 03:00:31,422 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:31,422 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_0_a0689e6d72b11a02aa86.png with policy now
+2024-11-14 03:00:31,424 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:31,424 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_0_72d6bd9f29a3216dc2ad.png with policy now
+2024-11-14 03:00:31,433 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:31,433 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_0_603f7276e11c39cea0c4.png with policy now
+2024-11-14 03:00:31,434 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:31,434 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_0_dc6a9661ea835da56ecd.png with policy now
+2024-11-14 03:00:31,442 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:31,442 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:31,443 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:31,454 DEBUG   SenderThread:353 [sender.py:send():380] send: history
+2024-11-14 03:00:31,454 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:00:31,464 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:00:31,464 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:00:31,479 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:00:31,481 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:00:31,481 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:00:31,624 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/5idv2avc-media/images/examples_0_08fd1f935081cda2c0d3.png
+2024-11-14 03:00:31,645 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/mvvt1jnx-media/images/examples_0_5ecaf860d67f4cc1e1fb.png
+2024-11-14 03:00:31,723 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/gwd0n6rn-media/images/examples_0_9745725945539f8f879f.png
+2024-11-14 03:00:31,749 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/khyc719y-media/images/examples_0_603f7276e11c39cea0c4.png
+2024-11-14 03:00:31,754 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/3amy89dx-media/images/examples_0_a0689e6d72b11a02aa86.png
+2024-11-14 03:00:31,758 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/57txz3hy-media/images/examples_0_507c182446aadec864b8.png
+2024-11-14 03:00:31,761 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/69xlrl4x-media/images/examples_0_5a515f45d8930ff9064b.png
+2024-11-14 03:00:31,762 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/7sp7ynsw-media/images/examples_0_72d6bd9f29a3216dc2ad.png
+2024-11-14 03:00:31,762 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/5hgxnsf5-media/images/examples_0_dc6a9661ea835da56ecd.png
+2024-11-14 03:00:31,810 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/cqnve4dz-media/images/examples_0_b87c86070ead80a86294.png
+2024-11-14 03:00:32,099 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json
+2024-11-14 03:00:32,100 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:32,100 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_dc6a9661ea835da56ecd.png
+2024-11-14 03:00:32,100 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_08fd1f935081cda2c0d3.png
+2024-11-14 03:00:32,100 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_507c182446aadec864b8.png
+2024-11-14 03:00:32,100 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/model-best.h5
+2024-11-14 03:00:32,101 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_a0689e6d72b11a02aa86.png
+2024-11-14 03:00:32,101 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_b87c86070ead80a86294.png
+2024-11-14 03:00:32,101 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_603f7276e11c39cea0c4.png
+2024-11-14 03:00:32,102 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_5a515f45d8930ff9064b.png
+2024-11-14 03:00:32,102 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_5ecaf860d67f4cc1e1fb.png
+2024-11-14 03:00:32,102 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_72d6bd9f29a3216dc2ad.png
+2024-11-14 03:00:32,102 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_9745725945539f8f879f.png
+2024-11-14 03:00:32,103 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media
+2024-11-14 03:00:32,103 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images
+2024-11-14 03:00:32,353 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: log_artifact
+2024-11-14 03:00:32,354 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: log_artifact
+2024-11-14 03:00:32,366 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/j9tezzgp-model-best.h5
+2024-11-14 03:00:32,368 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/80z7qqov-media/images/examples_0_dc6a9661ea835da56ecd.png
+2024-11-14 03:00:32,375 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/iysmsz8q-media/images/examples_0_507c182446aadec864b8.png
+2024-11-14 03:00:32,376 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ek2wol61-media/images/examples_0_08fd1f935081cda2c0d3.png
+2024-11-14 03:00:32,381 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/vob2d36v-media/images/examples_0_b87c86070ead80a86294.png
+2024-11-14 03:00:32,388 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/msf6cuz1-media/images/examples_0_5ecaf860d67f4cc1e1fb.png
+2024-11-14 03:00:32,389 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/om72mph8-media/images/examples_0_a0689e6d72b11a02aa86.png
+2024-11-14 03:00:32,390 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/yrsrb601-media/images/examples_0_5a515f45d8930ff9064b.png
+2024-11-14 03:00:32,398 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/qd3n7pf1-media/images/examples_0_603f7276e11c39cea0c4.png
+2024-11-14 03:00:32,438 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/3205hie4-media/images/examples_0_72d6bd9f29a3216dc2ad.png
+2024-11-14 03:00:32,476 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/qdgcok7g-media/images/examples_0_9745725945539f8f879f.png
+2024-11-14 03:00:33,024 INFO    wandb-upload_7:353 [upload_job.py:push():89] Uploaded file /aiffel/.local/share/wandb/artifacts/staging/tmpqzjvsiwf
+2024-11-14 03:00:33,025 INFO    wandb-upload_2:353 [upload_job.py:push():89] Uploaded file /aiffel/.local/share/wandb/artifacts/staging/tmpcwhk3dfg
+2024-11-14 03:00:33,118 INFO    wandb-upload_1:353 [upload_job.py:push():89] Uploaded file /aiffel/.local/share/wandb/artifacts/staging/tmpsgz713e2
+2024-11-14 03:00:33,141 INFO    wandb-upload_6:353 [upload_job.py:push():89] Uploaded file /aiffel/.local/share/wandb/artifacts/staging/tmp349zm0iv
+2024-11-14 03:00:33,755 INFO    SenderThread:353 [sender.py:send_request_log_artifact():1446] logged artifact model-clean-sweep-2 - {'id': 'QXJ0aWZhY3Q6MTMzNDIwNzU3MQ==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ5NTcxOTIzOQ==', 'latestArtifact': None}}
+2024-11-14 03:00:33,759 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status_report
+2024-11-14 03:00:34,101 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:35,102 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:36,103 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:37,532 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:37,532 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_1_13c88305b5c42499e6da.png with policy now
+2024-11-14 03:00:37,540 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:37,540 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_1_54d106d9266df32ebc3f.png with policy now
+2024-11-14 03:00:37,544 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:37,544 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_1_ab05b4b99b8e33415846.png with policy now
+2024-11-14 03:00:37,549 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:37,549 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_1_3dd4ae37353b2115549e.png with policy now
+2024-11-14 03:00:37,553 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:37,554 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_1_8d2e7de00d795e4ff509.png with policy now
+2024-11-14 03:00:37,554 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:37,554 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_1_fe24688d95a80de7a934.png with policy now
+2024-11-14 03:00:37,558 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:37,558 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_1_2f0c9a97f372b28b201f.png with policy now
+2024-11-14 03:00:37,565 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:37,565 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_1_ffd9da07c3315c0f0b63.png with policy now
+2024-11-14 03:00:37,571 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:37,571 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_1_d3818a8f0d5faee313cf.png with policy now
+2024-11-14 03:00:37,577 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:37,577 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_1_3c451909c3454d6c0edc.png with policy now
+2024-11-14 03:00:37,583 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:37,583 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:37,584 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:37,585 DEBUG   SenderThread:353 [sender.py:send():380] send: history
+2024-11-14 03:00:37,585 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:00:37,586 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:00:37,747 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/s6xscrtn-media/images/examples_1_13c88305b5c42499e6da.png
+2024-11-14 03:00:37,747 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/apjp8os2-media/images/examples_1_3dd4ae37353b2115549e.png
+2024-11-14 03:00:37,760 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/djwk5fnu-media/images/examples_1_fe24688d95a80de7a934.png
+2024-11-14 03:00:37,765 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/s2hvmtc5-media/images/examples_1_8d2e7de00d795e4ff509.png
+2024-11-14 03:00:37,765 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/iflxgv1h-media/images/examples_1_ab05b4b99b8e33415846.png
+2024-11-14 03:00:37,776 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/auks3041-media/images/examples_1_54d106d9266df32ebc3f.png
+2024-11-14 03:00:37,777 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/1rnotvjo-media/images/examples_1_ffd9da07c3315c0f0b63.png
+2024-11-14 03:00:37,785 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/zmfp6p1u-media/images/examples_1_d3818a8f0d5faee313cf.png
+2024-11-14 03:00:37,790 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/bxc2codd-media/images/examples_1_3c451909c3454d6c0edc.png
+2024-11-14 03:00:37,835 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/sgmpvfrh-media/images/examples_1_2f0c9a97f372b28b201f.png
+2024-11-14 03:00:38,104 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json
+2024-11-14 03:00:38,105 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:38,105 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_d3818a8f0d5faee313cf.png
+2024-11-14 03:00:38,105 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_3c451909c3454d6c0edc.png
+2024-11-14 03:00:38,106 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_3dd4ae37353b2115549e.png
+2024-11-14 03:00:38,106 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_ab05b4b99b8e33415846.png
+2024-11-14 03:00:38,107 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_ffd9da07c3315c0f0b63.png
+2024-11-14 03:00:38,107 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_13c88305b5c42499e6da.png
+2024-11-14 03:00:38,107 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_2f0c9a97f372b28b201f.png
+2024-11-14 03:00:38,108 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_8d2e7de00d795e4ff509.png
+2024-11-14 03:00:38,108 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_fe24688d95a80de7a934.png
+2024-11-14 03:00:38,108 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_54d106d9266df32ebc3f.png
+2024-11-14 03:00:38,109 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images
+2024-11-14 03:00:38,376 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/sv61uu4j-media/images/examples_1_d3818a8f0d5faee313cf.png
+2024-11-14 03:00:38,377 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/tr020u09-media/images/examples_1_3c451909c3454d6c0edc.png
+2024-11-14 03:00:38,379 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/lk82hqfx-media/images/examples_1_ab05b4b99b8e33415846.png
+2024-11-14 03:00:38,413 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/pkvb5ss4-media/images/examples_1_fe24688d95a80de7a934.png
+2024-11-14 03:00:38,422 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/o5vmqxhp-media/images/examples_1_13c88305b5c42499e6da.png
+2024-11-14 03:00:38,424 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ioit8rml-media/images/examples_1_ffd9da07c3315c0f0b63.png
+2024-11-14 03:00:38,433 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/nasisr1v-media/images/examples_1_3dd4ae37353b2115549e.png
+2024-11-14 03:00:38,433 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/n76uz2rl-media/images/examples_1_54d106d9266df32ebc3f.png
+2024-11-14 03:00:38,435 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/b0vkqwzq-media/images/examples_1_8d2e7de00d795e4ff509.png
+2024-11-14 03:00:38,473 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ukrstezf-media/images/examples_1_2f0c9a97f372b28b201f.png
+2024-11-14 03:00:38,768 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status_report
+2024-11-14 03:00:39,828 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: stop_status
+2024-11-14 03:00:39,828 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: stop_status
+2024-11-14 03:00:39,833 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: internal_messages
+2024-11-14 03:00:40,106 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:42,108 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:42,871 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:42,871 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_2_05ac5d3eec80643f8860.png with policy now
+2024-11-14 03:00:42,876 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:42,876 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_2_747014d6ce47346c7cac.png with policy now
+2024-11-14 03:00:42,883 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:42,883 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_2_a4230d20d013a28fdbef.png with policy now
+2024-11-14 03:00:42,884 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:42,884 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_2_d043d7d6c1e06d2a4061.png with policy now
+2024-11-14 03:00:42,894 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:42,895 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_2_0cf4645d1d7cf3e08c71.png with policy now
+2024-11-14 03:00:42,899 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:42,899 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_2_0cfda30975fbede8f948.png with policy now
+2024-11-14 03:00:42,900 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:42,900 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_2_df2c4e98bc8832d042fb.png with policy now
+2024-11-14 03:00:42,906 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:42,906 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_2_13bcd08261ef49f6da33.png with policy now
+2024-11-14 03:00:42,911 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:42,911 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_2_0da1da97de64dbdd0238.png with policy now
+2024-11-14 03:00:42,916 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:42,916 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_2_10052280c962bd6b3772.png with policy now
+2024-11-14 03:00:42,925 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:42,925 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:42,925 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:42,928 DEBUG   SenderThread:353 [sender.py:send():380] send: history
+2024-11-14 03:00:42,928 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:00:42,929 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:00:43,076 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/c9pe8fsi-media/images/examples_2_05ac5d3eec80643f8860.png
+2024-11-14 03:00:43,094 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/7mnw75g0-media/images/examples_2_0cf4645d1d7cf3e08c71.png
+2024-11-14 03:00:43,108 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/5m03h39x-media/images/examples_2_d043d7d6c1e06d2a4061.png
+2024-11-14 03:00:43,110 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json
+2024-11-14 03:00:43,110 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_df2c4e98bc8832d042fb.png
+2024-11-14 03:00:43,110 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_13bcd08261ef49f6da33.png
+2024-11-14 03:00:43,110 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_d043d7d6c1e06d2a4061.png
+2024-11-14 03:00:43,111 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_a4230d20d013a28fdbef.png
+2024-11-14 03:00:43,111 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_747014d6ce47346c7cac.png
+2024-11-14 03:00:43,112 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_0cfda30975fbede8f948.png
+2024-11-14 03:00:43,113 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/czzdh35l-media/images/examples_2_13bcd08261ef49f6da33.png
+2024-11-14 03:00:43,113 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_0cf4645d1d7cf3e08c71.png
+2024-11-14 03:00:43,114 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_05ac5d3eec80643f8860.png
+2024-11-14 03:00:43,114 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_10052280c962bd6b3772.png
+2024-11-14 03:00:43,114 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_0da1da97de64dbdd0238.png
+2024-11-14 03:00:43,115 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images
+2024-11-14 03:00:43,115 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/65kykfwl-media/images/examples_2_a4230d20d013a28fdbef.png
+2024-11-14 03:00:43,121 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/zp92rxte-media/images/examples_2_0cfda30975fbede8f948.png
+2024-11-14 03:00:43,127 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ub60lsl0-media/images/examples_2_747014d6ce47346c7cac.png
+2024-11-14 03:00:43,130 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/damronjb-media/images/examples_2_df2c4e98bc8832d042fb.png
+2024-11-14 03:00:43,131 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/4poh7ndn-media/images/examples_2_0da1da97de64dbdd0238.png
+2024-11-14 03:00:43,136 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/6jz132gi-media/images/examples_2_10052280c962bd6b3772.png
+2024-11-14 03:00:43,419 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/cjel00kr-media/images/examples_2_d043d7d6c1e06d2a4061.png
+2024-11-14 03:00:43,420 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/hpdt7i8u-media/images/examples_2_747014d6ce47346c7cac.png
+2024-11-14 03:00:43,426 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/11djdfsy-media/images/examples_2_13bcd08261ef49f6da33.png
+2024-11-14 03:00:43,427 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/a3x4stux-media/images/examples_2_df2c4e98bc8832d042fb.png
+2024-11-14 03:00:43,428 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/i6wlxrwq-media/images/examples_2_a4230d20d013a28fdbef.png
+2024-11-14 03:00:43,479 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ue9mi5yg-media/images/examples_2_0cfda30975fbede8f948.png
+2024-11-14 03:00:43,497 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/trputukk-media/images/examples_2_0cf4645d1d7cf3e08c71.png
+2024-11-14 03:00:43,504 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/p4d2wk6c-media/images/examples_2_05ac5d3eec80643f8860.png
+2024-11-14 03:00:43,510 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/z4d7oak2-media/images/examples_2_0da1da97de64dbdd0238.png
+2024-11-14 03:00:43,512 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ahk7wscu-media/images/examples_2_10052280c962bd6b3772.png
+2024-11-14 03:00:43,790 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status_report
+2024-11-14 03:00:44,110 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:46,112 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:48,114 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:48,163 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:48,163 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_3_8c1781bc7c85128e5020.png with policy now
+2024-11-14 03:00:48,169 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:48,169 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_3_1ec13016d037488ee026.png with policy now
+2024-11-14 03:00:48,175 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:48,175 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_3_f4f6f0421bc99a30e723.png with policy now
+2024-11-14 03:00:48,182 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:48,182 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_3_fc06794076949ec2348a.png with policy now
+2024-11-14 03:00:48,189 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:48,189 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_3_14aebde157b78143b447.png with policy now
+2024-11-14 03:00:48,197 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:48,197 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_3_ca0677a725afe9d34a66.png with policy now
+2024-11-14 03:00:48,207 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:48,207 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_3_49908148000d0585d930.png with policy now
+2024-11-14 03:00:48,214 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:48,214 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_3_d70bd37089710c92a536.png with policy now
+2024-11-14 03:00:48,222 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:48,222 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_3_9813d2fa009153069609.png with policy now
+2024-11-14 03:00:48,235 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:48,235 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_3_16aa141373781bf633dc.png with policy now
+2024-11-14 03:00:48,246 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:48,247 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:48,248 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:48,250 DEBUG   SenderThread:353 [sender.py:send():380] send: history
+2024-11-14 03:00:48,251 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:00:48,252 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:00:48,357 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/6yb1lb35-media/images/examples_3_8c1781bc7c85128e5020.png
+2024-11-14 03:00:48,374 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/lq4f1clf-media/images/examples_3_1ec13016d037488ee026.png
+2024-11-14 03:00:48,383 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/8e21h9rn-media/images/examples_3_fc06794076949ec2348a.png
+2024-11-14 03:00:48,388 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/6pp1c4ej-media/images/examples_3_f4f6f0421bc99a30e723.png
+2024-11-14 03:00:48,414 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/9b3qhuky-media/images/examples_3_d70bd37089710c92a536.png
+2024-11-14 03:00:48,415 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/o7bslqmy-media/images/examples_3_49908148000d0585d930.png
+2024-11-14 03:00:48,417 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/npoqsfzw-media/images/examples_3_ca0677a725afe9d34a66.png
+2024-11-14 03:00:48,438 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/fcnj5uj5-media/images/examples_3_9813d2fa009153069609.png
+2024-11-14 03:00:48,456 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/odhkk9i4-media/images/examples_3_14aebde157b78143b447.png
+2024-11-14 03:00:48,478 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/2rvg66e4-media/images/examples_3_16aa141373781bf633dc.png
+2024-11-14 03:00:48,818 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status_report
+2024-11-14 03:00:49,115 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json
+2024-11-14 03:00:49,116 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_1ec13016d037488ee026.png
+2024-11-14 03:00:49,116 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_ca0677a725afe9d34a66.png
+2024-11-14 03:00:49,116 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_d70bd37089710c92a536.png
+2024-11-14 03:00:49,117 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_49908148000d0585d930.png
+2024-11-14 03:00:49,117 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_fc06794076949ec2348a.png
+2024-11-14 03:00:49,117 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_9813d2fa009153069609.png
+2024-11-14 03:00:49,118 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_14aebde157b78143b447.png
+2024-11-14 03:00:49,118 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_8c1781bc7c85128e5020.png
+2024-11-14 03:00:49,119 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_f4f6f0421bc99a30e723.png
+2024-11-14 03:00:49,119 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_16aa141373781bf633dc.png
+2024-11-14 03:00:49,119 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images
+2024-11-14 03:00:49,388 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/xgldm3ow-media/images/examples_3_ca0677a725afe9d34a66.png
+2024-11-14 03:00:49,392 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/yd3wk0l4-media/images/examples_3_49908148000d0585d930.png
+2024-11-14 03:00:49,393 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/kcanqamq-media/images/examples_3_d70bd37089710c92a536.png
+2024-11-14 03:00:49,398 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/fnll03vf-media/images/examples_3_14aebde157b78143b447.png
+2024-11-14 03:00:49,404 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/s9hzny8k-media/images/examples_3_1ec13016d037488ee026.png
+2024-11-14 03:00:49,411 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/75nd86td-media/images/examples_3_fc06794076949ec2348a.png
+2024-11-14 03:00:49,417 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/vhe73kcu-media/images/examples_3_8c1781bc7c85128e5020.png
+2024-11-14 03:00:49,425 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/fohs86x1-media/images/examples_3_16aa141373781bf633dc.png
+2024-11-14 03:00:49,425 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/b26wq9fp-media/images/examples_3_9813d2fa009153069609.png
+2024-11-14 03:00:49,442 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/8sy7hsvf-media/images/examples_3_f4f6f0421bc99a30e723.png
+2024-11-14 03:00:50,116 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:52,118 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:53,429 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:53,429 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_4_4d835c7609d691e97be8.png with policy now
+2024-11-14 03:00:53,436 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:53,437 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_4_68e6ae387be5df45e883.png with policy now
+2024-11-14 03:00:53,438 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:53,438 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_4_1ee6fbc49ce07d63fa88.png with policy now
+2024-11-14 03:00:53,443 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:53,443 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_4_c23afd9dc2dd81c239a6.png with policy now
+2024-11-14 03:00:53,445 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:53,445 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_4_502ec349ea5c8b198895.png with policy now
+2024-11-14 03:00:53,451 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:53,451 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_4_c156413c15480f5242f3.png with policy now
+2024-11-14 03:00:53,458 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:53,458 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_4_46382108c1055223dcf1.png with policy now
+2024-11-14 03:00:53,464 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:53,464 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_4_6a5d31c12a4d246dc544.png with policy now
+2024-11-14 03:00:53,471 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:53,475 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_4_044767cb45d4709e97fe.png with policy now
+2024-11-14 03:00:53,476 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:53,476 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_4_495d84f1cfc2fb4c479c.png with policy now
+2024-11-14 03:00:53,480 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:53,481 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:53,481 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:53,482 DEBUG   SenderThread:353 [sender.py:send():380] send: history
+2024-11-14 03:00:53,483 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:00:53,484 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:00:53,638 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/gwxzifdw-media/images/examples_4_4d835c7609d691e97be8.png
+2024-11-14 03:00:53,650 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/kt76zcxt-media/images/examples_4_68e6ae387be5df45e883.png
+2024-11-14 03:00:53,662 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/stbtqtj7-media/images/examples_4_1ee6fbc49ce07d63fa88.png
+2024-11-14 03:00:53,664 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/fqj16fuh-media/images/examples_4_c23afd9dc2dd81c239a6.png
+2024-11-14 03:00:53,672 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/pyqscbq3-media/images/examples_4_502ec349ea5c8b198895.png
+2024-11-14 03:00:53,682 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/91yoq2ad-media/images/examples_4_c156413c15480f5242f3.png
+2024-11-14 03:00:53,686 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ykifql84-media/images/examples_4_46382108c1055223dcf1.png
+2024-11-14 03:00:53,693 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/5m52ehpv-media/images/examples_4_044767cb45d4709e97fe.png
+2024-11-14 03:00:53,706 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/efe1fs37-media/images/examples_4_495d84f1cfc2fb4c479c.png
+2024-11-14 03:00:53,716 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/penrs612-media/images/examples_4_6a5d31c12a4d246dc544.png
+2024-11-14 03:00:53,853 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status_report
+2024-11-14 03:00:54,121 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/config.yaml
+2024-11-14 03:00:54,121 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json
+2024-11-14 03:00:54,121 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:54,121 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_495d84f1cfc2fb4c479c.png
+2024-11-14 03:00:54,122 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_c23afd9dc2dd81c239a6.png
+2024-11-14 03:00:54,122 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_68e6ae387be5df45e883.png
+2024-11-14 03:00:54,122 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_502ec349ea5c8b198895.png
+2024-11-14 03:00:54,123 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_044767cb45d4709e97fe.png
+2024-11-14 03:00:54,123 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_c156413c15480f5242f3.png
+2024-11-14 03:00:54,123 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_4d835c7609d691e97be8.png
+2024-11-14 03:00:54,124 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_46382108c1055223dcf1.png
+2024-11-14 03:00:54,124 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_6a5d31c12a4d246dc544.png
+2024-11-14 03:00:54,125 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_1ee6fbc49ce07d63fa88.png
+2024-11-14 03:00:54,125 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images
+2024-11-14 03:00:54,381 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/0s2g3onk-media/images/examples_4_502ec349ea5c8b198895.png
+2024-11-14 03:00:54,402 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/lek2f0vu-media/images/examples_4_68e6ae387be5df45e883.png
+2024-11-14 03:00:54,403 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/2c0vu7l1-media/images/examples_4_495d84f1cfc2fb4c479c.png
+2024-11-14 03:00:54,418 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/crvir2is-media/images/examples_4_c156413c15480f5242f3.png
+2024-11-14 03:00:54,429 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/q4i9ry2n-media/images/examples_4_4d835c7609d691e97be8.png
+2024-11-14 03:00:54,430 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/1qibq25a-media/images/examples_4_6a5d31c12a4d246dc544.png
+2024-11-14 03:00:54,435 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/bg886kxz-media/images/examples_4_46382108c1055223dcf1.png
+2024-11-14 03:00:54,446 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/1wt6atnr-media/images/examples_4_c23afd9dc2dd81c239a6.png
+2024-11-14 03:00:54,470 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/giwc0g0q-media/images/examples_4_044767cb45d4709e97fe.png
+2024-11-14 03:00:54,488 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/iwmpixyj-media/images/examples_4_1ee6fbc49ce07d63fa88.png
+2024-11-14 03:00:54,828 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: stop_status
+2024-11-14 03:00:54,829 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: internal_messages
+2024-11-14 03:00:54,829 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: stop_status
+2024-11-14 03:00:56,123 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:58,127 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:00:58,627 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:58,627 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_5_1c9ef78ce4ac81cc1995.png with policy now
+2024-11-14 03:00:58,633 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:58,633 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_5_c779294dcbdea2257ee7.png with policy now
+2024-11-14 03:00:58,638 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:58,638 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_5_ddfbcc559303cb08e17b.png with policy now
+2024-11-14 03:00:58,646 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:58,646 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_5_9bc277f084558768bf97.png with policy now
+2024-11-14 03:00:58,651 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:58,651 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_5_4d61e92522cb7c585ae1.png with policy now
+2024-11-14 03:00:58,656 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:58,656 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_5_49d6ceaf0fe6aa343d3b.png with policy now
+2024-11-14 03:00:58,661 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:58,661 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_5_1e0005b99e3587b65b06.png with policy now
+2024-11-14 03:00:58,668 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:58,668 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_5_ac40476e270ee5810f83.png with policy now
+2024-11-14 03:00:58,673 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:58,673 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_5_d66e30d7c0adbf72de8a.png with policy now
+2024-11-14 03:00:58,674 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:00:58,674 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_5_e55f718e2260f1dbcf3e.png with policy now
+2024-11-14 03:00:58,685 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:58,685 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:58,686 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:00:58,687 DEBUG   SenderThread:353 [sender.py:send():380] send: history
+2024-11-14 03:00:58,687 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:00:58,688 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:00:58,850 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/4jccnrxf-media/images/examples_5_9bc277f084558768bf97.png
+2024-11-14 03:00:58,856 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/g5uo38ke-media/images/examples_5_ddfbcc559303cb08e17b.png
+2024-11-14 03:00:58,857 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/l3jjmi9q-media/images/examples_5_1c9ef78ce4ac81cc1995.png
+2024-11-14 03:00:58,863 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/osoom8k4-media/images/examples_5_c779294dcbdea2257ee7.png
+2024-11-14 03:00:58,871 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/d9ou3y1k-media/images/examples_5_49d6ceaf0fe6aa343d3b.png
+2024-11-14 03:00:58,881 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/u385x0vg-media/images/examples_5_ac40476e270ee5810f83.png
+2024-11-14 03:00:58,882 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/y9gzg04x-media/images/examples_5_e55f718e2260f1dbcf3e.png
+2024-11-14 03:00:58,892 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/p2expsv3-media/images/examples_5_4d61e92522cb7c585ae1.png
+2024-11-14 03:00:58,893 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/6qznbpnp-media/images/examples_5_1e0005b99e3587b65b06.png
+2024-11-14 03:00:58,894 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/27y3ux3f-media/images/examples_5_d66e30d7c0adbf72de8a.png
+2024-11-14 03:00:58,995 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status_report
+2024-11-14 03:00:59,129 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json
+2024-11-14 03:00:59,129 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_ddfbcc559303cb08e17b.png
+2024-11-14 03:00:59,130 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_1e0005b99e3587b65b06.png
+2024-11-14 03:00:59,130 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_9bc277f084558768bf97.png
+2024-11-14 03:00:59,131 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_c779294dcbdea2257ee7.png
+2024-11-14 03:00:59,131 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_d66e30d7c0adbf72de8a.png
+2024-11-14 03:00:59,131 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_4d61e92522cb7c585ae1.png
+2024-11-14 03:00:59,132 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_ac40476e270ee5810f83.png
+2024-11-14 03:00:59,132 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_1c9ef78ce4ac81cc1995.png
+2024-11-14 03:00:59,132 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_49d6ceaf0fe6aa343d3b.png
+2024-11-14 03:00:59,133 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_e55f718e2260f1dbcf3e.png
+2024-11-14 03:00:59,133 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images
+2024-11-14 03:00:59,375 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/86cw6ybt-media/images/examples_5_ddfbcc559303cb08e17b.png
+2024-11-14 03:00:59,407 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/3w98swaz-media/images/examples_5_c779294dcbdea2257ee7.png
+2024-11-14 03:00:59,412 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/wjqm0aev-media/images/examples_5_1e0005b99e3587b65b06.png
+2024-11-14 03:00:59,415 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ub3pt830-media/images/examples_5_9bc277f084558768bf97.png
+2024-11-14 03:00:59,421 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/dkorfgw6-media/images/examples_5_4d61e92522cb7c585ae1.png
+2024-11-14 03:00:59,430 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/vvmoc2ro-media/images/examples_5_d66e30d7c0adbf72de8a.png
+2024-11-14 03:00:59,445 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/73p7jcdc-media/images/examples_5_49d6ceaf0fe6aa343d3b.png
+2024-11-14 03:00:59,446 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/yv1h4292-media/images/examples_5_e55f718e2260f1dbcf3e.png
+2024-11-14 03:00:59,450 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/okrt3j5y-media/images/examples_5_ac40476e270ee5810f83.png
+2024-11-14 03:00:59,458 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/4il3rz4u-media/images/examples_5_1c9ef78ce4ac81cc1995.png
+2024-11-14 03:01:00,131 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:02,134 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:03,942 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:03,942 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_6_1e2e7ac764a3d04975d5.png with policy now
+2024-11-14 03:01:03,947 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:03,947 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_6_0aa28edfcf943378073d.png with policy now
+2024-11-14 03:01:03,951 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:03,952 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_6_c97e7184a0d67caba5bb.png with policy now
+2024-11-14 03:01:03,956 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:03,956 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_6_5b5bdd9165c2a43778e3.png with policy now
+2024-11-14 03:01:03,957 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:03,957 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_6_eba1799972cf5f89d955.png with policy now
+2024-11-14 03:01:03,965 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:03,965 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_6_ecc53fec0527b18a80d6.png with policy now
+2024-11-14 03:01:03,969 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:03,969 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_6_6ba0e3d9fff54b76bc1d.png with policy now
+2024-11-14 03:01:03,975 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:03,975 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_6_e48edb8795510763e52e.png with policy now
+2024-11-14 03:01:03,976 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:03,976 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_6_b66942a6df10092d319f.png with policy now
+2024-11-14 03:01:03,982 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:03,982 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_6_43e67071e0290e8dd412.png with policy now
+2024-11-14 03:01:03,991 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:03,991 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:03,992 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:03,994 DEBUG   SenderThread:353 [sender.py:send():380] send: history
+2024-11-14 03:01:03,994 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:01:03,994 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:01:03,994 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:01:03,995 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:01:03,995 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:01:03,995 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status_report
+2024-11-14 03:01:03,996 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:01:04,136 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/model-best.h5
+2024-11-14 03:01:04,137 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json
+2024-11-14 03:01:04,137 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:04,137 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_43e67071e0290e8dd412.png
+2024-11-14 03:01:04,137 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_b66942a6df10092d319f.png
+2024-11-14 03:01:04,138 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_5b5bdd9165c2a43778e3.png
+2024-11-14 03:01:04,138 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_0aa28edfcf943378073d.png
+2024-11-14 03:01:04,138 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_e48edb8795510763e52e.png
+2024-11-14 03:01:04,139 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_c97e7184a0d67caba5bb.png
+2024-11-14 03:01:04,139 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_6ba0e3d9fff54b76bc1d.png
+2024-11-14 03:01:04,139 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_eba1799972cf5f89d955.png
+2024-11-14 03:01:04,140 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_1e2e7ac764a3d04975d5.png
+2024-11-14 03:01:04,140 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_ecc53fec0527b18a80d6.png
+2024-11-14 03:01:04,141 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images
+2024-11-14 03:01:04,160 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/d8o9ss9j-media/images/examples_6_1e2e7ac764a3d04975d5.png
+2024-11-14 03:01:04,166 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/o4999fvo-media/images/examples_6_0aa28edfcf943378073d.png
+2024-11-14 03:01:04,170 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/zx2zuo1f-media/images/examples_6_c97e7184a0d67caba5bb.png
+2024-11-14 03:01:04,179 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/250ruzl7-media/images/examples_6_ecc53fec0527b18a80d6.png
+2024-11-14 03:01:04,185 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/rw1bks16-media/images/examples_6_5b5bdd9165c2a43778e3.png
+2024-11-14 03:01:04,186 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/24marqbe-media/images/examples_6_eba1799972cf5f89d955.png
+2024-11-14 03:01:04,189 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/cb0cef09-media/images/examples_6_43e67071e0290e8dd412.png
+2024-11-14 03:01:04,198 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/wbx06j3u-media/images/examples_6_6ba0e3d9fff54b76bc1d.png
+2024-11-14 03:01:04,198 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/nx0xrj5c-media/images/examples_6_e48edb8795510763e52e.png
+2024-11-14 03:01:04,206 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/q8q8jnnb-media/images/examples_6_b66942a6df10092d319f.png
+2024-11-14 03:01:04,433 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/brollosx-media/images/examples_6_0aa28edfcf943378073d.png
+2024-11-14 03:01:04,451 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/diqyq20o-media/images/examples_6_eba1799972cf5f89d955.png
+2024-11-14 03:01:04,459 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/1vly8ef6-media/images/examples_6_c97e7184a0d67caba5bb.png
+2024-11-14 03:01:04,464 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/qnw99eim-media/images/examples_6_1e2e7ac764a3d04975d5.png
+2024-11-14 03:01:04,490 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ef1lp90t-media/images/examples_6_ecc53fec0527b18a80d6.png
+2024-11-14 03:01:04,702 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/bv5wi269-media/images/examples_6_43e67071e0290e8dd412.png
+2024-11-14 03:01:04,715 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/9sszcc50-media/images/examples_6_5b5bdd9165c2a43778e3.png
+2024-11-14 03:01:04,721 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/6nqaswfg-media/images/examples_6_b66942a6df10092d319f.png
+2024-11-14 03:01:04,744 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/9zy5nc0k-media/images/examples_6_6ba0e3d9fff54b76bc1d.png
+2024-11-14 03:01:04,749 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/c9yo4e6y-media/images/examples_6_e48edb8795510763e52e.png
+2024-11-14 03:01:04,882 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: log_artifact
+2024-11-14 03:01:04,883 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: log_artifact
+2024-11-14 03:01:05,397 INFO    wandb-upload_3:353 [upload_job.py:push():86] Skipped uploading /aiffel/.local/share/wandb/artifacts/staging/tmpn9jph9bs
+2024-11-14 03:01:05,525 INFO    wandb-upload_4:353 [upload_job.py:push():89] Uploaded file /aiffel/.local/share/wandb/artifacts/staging/tmph_1ya_rz
+2024-11-14 03:01:05,621 INFO    wandb-upload_1:353 [upload_job.py:push():89] Uploaded file /aiffel/.local/share/wandb/artifacts/staging/tmpxowlq80b
+2024-11-14 03:01:05,680 INFO    wandb-upload_6:353 [upload_job.py:push():89] Uploaded file /aiffel/.local/share/wandb/artifacts/staging/tmpiyurh7xu
+2024-11-14 03:01:06,139 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:06,238 INFO    SenderThread:353 [sender.py:send_request_log_artifact():1446] logged artifact model-clean-sweep-2 - {'id': 'QXJ0aWZhY3Q6MTMzNDIwODMwNw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ5NTcxOTIzOQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTMzNDIwNzU3MQ==', 'versionIndex': 0}}}
+2024-11-14 03:01:07,142 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:08,143 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:08,996 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status_report
+2024-11-14 03:01:09,829 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: stop_status
+2024-11-14 03:01:09,829 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: stop_status
+2024-11-14 03:01:09,833 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: internal_messages
+2024-11-14 03:01:10,146 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:10,166 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:10,166 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_7_ba0383e4ba28e0364871.png with policy now
+2024-11-14 03:01:10,174 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:10,175 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_7_a48756e2f502baad8bef.png with policy now
+2024-11-14 03:01:10,176 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:10,176 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_7_b5c5db0ecdcce5149f8d.png with policy now
+2024-11-14 03:01:10,187 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:10,188 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_7_37ce4c80e3ccebd4d458.png with policy now
+2024-11-14 03:01:10,189 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:10,190 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_7_81452c835dd39200044e.png with policy now
+2024-11-14 03:01:10,201 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:10,201 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_7_af5ef017378fd871adfb.png with policy now
+2024-11-14 03:01:10,201 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:10,202 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_7_1d736c80604d211db81c.png with policy now
+2024-11-14 03:01:10,213 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:10,213 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_7_cf99faa441650e529dcc.png with policy now
+2024-11-14 03:01:10,214 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:10,214 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_7_a960f0039fcc9be80246.png with policy now
+2024-11-14 03:01:10,215 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:10,215 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_7_678d9a9805cb457ac4f4.png with policy now
+2024-11-14 03:01:10,225 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:10,226 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:10,226 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:10,228 DEBUG   SenderThread:353 [sender.py:send():380] send: history
+2024-11-14 03:01:10,229 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:01:10,230 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:01:10,371 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/eww5d3t7-media/images/examples_7_ba0383e4ba28e0364871.png
+2024-11-14 03:01:10,383 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/r85vyx5z-media/images/examples_7_a48756e2f502baad8bef.png
+2024-11-14 03:01:10,417 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/nrimxfd8-media/images/examples_7_b5c5db0ecdcce5149f8d.png
+2024-11-14 03:01:10,417 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ka02dzh2-media/images/examples_7_81452c835dd39200044e.png
+2024-11-14 03:01:10,420 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/d73j7cos-media/images/examples_7_1d736c80604d211db81c.png
+2024-11-14 03:01:10,421 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ep6glk3x-media/images/examples_7_af5ef017378fd871adfb.png
+2024-11-14 03:01:10,429 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/z0tnsc6z-media/images/examples_7_cf99faa441650e529dcc.png
+2024-11-14 03:01:10,432 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/st8luzdx-media/images/examples_7_a960f0039fcc9be80246.png
+2024-11-14 03:01:10,454 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/29dwfv30-media/images/examples_7_37ce4c80e3ccebd4d458.png
+2024-11-14 03:01:10,455 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/dnzm17hl-media/images/examples_7_678d9a9805cb457ac4f4.png
+2024-11-14 03:01:11,148 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json
+2024-11-14 03:01:11,148 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_678d9a9805cb457ac4f4.png
+2024-11-14 03:01:11,149 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_ba0383e4ba28e0364871.png
+2024-11-14 03:01:11,149 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_37ce4c80e3ccebd4d458.png
+2024-11-14 03:01:11,150 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_a960f0039fcc9be80246.png
+2024-11-14 03:01:11,151 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_1d736c80604d211db81c.png
+2024-11-14 03:01:11,152 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_cf99faa441650e529dcc.png
+2024-11-14 03:01:11,152 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_b5c5db0ecdcce5149f8d.png
+2024-11-14 03:01:11,153 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_af5ef017378fd871adfb.png
+2024-11-14 03:01:11,153 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_81452c835dd39200044e.png
+2024-11-14 03:01:11,154 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_a48756e2f502baad8bef.png
+2024-11-14 03:01:11,159 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images
+2024-11-14 03:01:11,415 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/dg8ajjlo-media/images/examples_7_678d9a9805cb457ac4f4.png
+2024-11-14 03:01:11,433 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/7ld8ilqx-media/images/examples_7_ba0383e4ba28e0364871.png
+2024-11-14 03:01:11,433 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/jrcbe6x4-media/images/examples_7_a960f0039fcc9be80246.png
+2024-11-14 03:01:11,448 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ubi56yo2-media/images/examples_7_af5ef017378fd871adfb.png
+2024-11-14 03:01:11,449 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/mmzunlw9-media/images/examples_7_37ce4c80e3ccebd4d458.png
+2024-11-14 03:01:11,450 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/1ir3odga-media/images/examples_7_1d736c80604d211db81c.png
+2024-11-14 03:01:11,454 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/stky0kc4-media/images/examples_7_81452c835dd39200044e.png
+2024-11-14 03:01:11,460 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ycs4v3g9-media/images/examples_7_b5c5db0ecdcce5149f8d.png
+2024-11-14 03:01:11,479 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/zy8467io-media/images/examples_7_a48756e2f502baad8bef.png
+2024-11-14 03:01:11,487 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/b0ilwqyf-media/images/examples_7_cf99faa441650e529dcc.png
+2024-11-14 03:01:12,149 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:14,016 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status_report
+2024-11-14 03:01:14,153 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:15,382 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:15,382 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_8_16277238b54d9fd935a0.png with policy now
+2024-11-14 03:01:15,387 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:15,388 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_8_fa3ee14ab77813fb0f5b.png with policy now
+2024-11-14 03:01:15,392 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:15,392 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_8_ebb24ef0df54af5c9253.png with policy now
+2024-11-14 03:01:15,398 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:15,398 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_8_37a88e4cf6a185b429e2.png with policy now
+2024-11-14 03:01:15,400 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:15,400 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_8_d8c5a5207452862f4f3c.png with policy now
+2024-11-14 03:01:15,409 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:15,409 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_8_f6fe4bff120c31f8a1aa.png with policy now
+2024-11-14 03:01:15,414 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:15,414 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_8_b07e7d477752f5234304.png with policy now
+2024-11-14 03:01:15,420 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:15,420 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_8_2ff85d98caeeca7a888e.png with policy now
+2024-11-14 03:01:15,421 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:15,421 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_8_7c6862990aa497c1617d.png with policy now
+2024-11-14 03:01:15,428 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:15,428 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_8_925e488f8dae617857e7.png with policy now
+2024-11-14 03:01:15,437 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:15,438 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:15,438 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:15,440 DEBUG   SenderThread:353 [sender.py:send():380] send: history
+2024-11-14 03:01:15,440 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:01:15,440 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:01:15,586 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/spxm9hsr-media/images/examples_8_37a88e4cf6a185b429e2.png
+2024-11-14 03:01:15,606 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/z3phsly3-media/images/examples_8_ebb24ef0df54af5c9253.png
+2024-11-14 03:01:15,614 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/qasx41cv-media/images/examples_8_16277238b54d9fd935a0.png
+2024-11-14 03:01:15,615 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/0wdyijil-media/images/examples_8_d8c5a5207452862f4f3c.png
+2024-11-14 03:01:15,617 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/40zjsrtg-media/images/examples_8_2ff85d98caeeca7a888e.png
+2024-11-14 03:01:15,617 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/698bm6bt-media/images/examples_8_f6fe4bff120c31f8a1aa.png
+2024-11-14 03:01:15,637 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/j9a3365o-media/images/examples_8_925e488f8dae617857e7.png
+2024-11-14 03:01:15,639 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/hxvkoo88-media/images/examples_8_b07e7d477752f5234304.png
+2024-11-14 03:01:15,640 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/fsrxz3dm-media/images/examples_8_7c6862990aa497c1617d.png
+2024-11-14 03:01:15,641 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/u48k6fv6-media/images/examples_8_fa3ee14ab77813fb0f5b.png
+2024-11-14 03:01:16,157 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json
+2024-11-14 03:01:16,157 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:16,157 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_f6fe4bff120c31f8a1aa.png
+2024-11-14 03:01:16,158 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_925e488f8dae617857e7.png
+2024-11-14 03:01:16,158 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_d8c5a5207452862f4f3c.png
+2024-11-14 03:01:16,159 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_2ff85d98caeeca7a888e.png
+2024-11-14 03:01:16,159 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_37a88e4cf6a185b429e2.png
+2024-11-14 03:01:16,160 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_7c6862990aa497c1617d.png
+2024-11-14 03:01:16,161 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_16277238b54d9fd935a0.png
+2024-11-14 03:01:16,162 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_ebb24ef0df54af5c9253.png
+2024-11-14 03:01:16,162 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_b07e7d477752f5234304.png
+2024-11-14 03:01:16,167 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_fa3ee14ab77813fb0f5b.png
+2024-11-14 03:01:16,168 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images
+2024-11-14 03:01:16,409 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ix8nl7w9-media/images/examples_8_925e488f8dae617857e7.png
+2024-11-14 03:01:16,418 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/gs768ry1-media/images/examples_8_d8c5a5207452862f4f3c.png
+2024-11-14 03:01:16,419 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/7w4edl3w-media/images/examples_8_f6fe4bff120c31f8a1aa.png
+2024-11-14 03:01:16,432 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/d89hnppn-media/images/examples_8_37a88e4cf6a185b429e2.png
+2024-11-14 03:01:16,433 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/7zdye0bv-media/images/examples_8_2ff85d98caeeca7a888e.png
+2024-11-14 03:01:16,455 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/a45uxj4j-media/images/examples_8_16277238b54d9fd935a0.png
+2024-11-14 03:01:16,456 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/wzdo1uhg-media/images/examples_8_b07e7d477752f5234304.png
+2024-11-14 03:01:16,456 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/o034au7r-media/images/examples_8_fa3ee14ab77813fb0f5b.png
+2024-11-14 03:01:16,470 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/9mdammpj-media/images/examples_8_ebb24ef0df54af5c9253.png
+2024-11-14 03:01:16,471 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/e4hfkoi0-media/images/examples_8_7c6862990aa497c1617d.png
+2024-11-14 03:01:18,160 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:19,019 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status_report
+2024-11-14 03:01:20,163 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:20,693 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:20,693 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_9_742e205a9c552e638cad.png with policy now
+2024-11-14 03:01:20,701 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:20,701 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_9_d1b75aa7f70fc19a806d.png with policy now
+2024-11-14 03:01:20,707 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:20,707 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_9_8b34f284202b4a30fc7d.png with policy now
+2024-11-14 03:01:20,712 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:20,712 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_9_9745725945539f8f879f.png with policy now
+2024-11-14 03:01:20,713 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:20,713 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_9_1510a0769dc4cbdabce9.png with policy now
+2024-11-14 03:01:20,719 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:20,719 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_9_638f1df906a42674ff26.png with policy now
+2024-11-14 03:01:20,724 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:20,724 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_9_d4d4454d821fc27e5454.png with policy now
+2024-11-14 03:01:20,730 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:20,730 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_9_6c54ffe2cdf360783437.png with policy now
+2024-11-14 03:01:20,736 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:20,736 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_9_dcf0ba0a386f6dac95a6.png with policy now
+2024-11-14 03:01:20,742 DEBUG   SenderThread:353 [sender.py:send():380] send: files
+2024-11-14 03:01:20,742 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file media/images/examples_9_37fd82fe08a894021562.png with policy now
+2024-11-14 03:01:20,746 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:20,747 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:20,747 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:20,748 DEBUG   SenderThread:353 [sender.py:send():380] send: history
+2024-11-14 03:01:20,748 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:01:20,749 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:01:20,912 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/nwx1if3f-media/images/examples_9_d1b75aa7f70fc19a806d.png
+2024-11-14 03:01:20,915 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/63jpuadh-media/images/examples_9_8b34f284202b4a30fc7d.png
+2024-11-14 03:01:20,916 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/1tjcqkl3-media/images/examples_9_742e205a9c552e638cad.png
+2024-11-14 03:01:20,925 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/toj108fh-media/images/examples_9_1510a0769dc4cbdabce9.png
+2024-11-14 03:01:20,930 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/09jnrcgc-media/images/examples_9_638f1df906a42674ff26.png
+2024-11-14 03:01:20,935 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/msva18u4-media/images/examples_9_9745725945539f8f879f.png
+2024-11-14 03:01:20,956 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/jouu7te3-media/images/examples_9_37fd82fe08a894021562.png
+2024-11-14 03:01:20,957 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/mnrffzl6-media/images/examples_9_6c54ffe2cdf360783437.png
+2024-11-14 03:01:20,964 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/8qgxn9xj-media/images/examples_9_d4d4454d821fc27e5454.png
+2024-11-14 03:01:20,970 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/f138eewb-media/images/examples_9_dcf0ba0a386f6dac95a6.png
+2024-11-14 03:01:21,078 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: partial_history
+2024-11-14 03:01:21,080 DEBUG   SenderThread:353 [sender.py:send():380] send: history
+2024-11-14 03:01:21,080 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: summary_record
+2024-11-14 03:01:21,081 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:01:21,081 DEBUG   SenderThread:353 [sender.py:send():380] send: telemetry
+2024-11-14 03:01:21,081 DEBUG   SenderThread:353 [sender.py:send():380] send: exit
+2024-11-14 03:01:21,081 INFO    SenderThread:353 [sender.py:send_exit():585] handling exit code: 0
+2024-11-14 03:01:21,082 INFO    SenderThread:353 [sender.py:send_exit():587] handling runtime: 56
+2024-11-14 03:01:21,082 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:01:21,082 INFO    SenderThread:353 [sender.py:send_exit():593] send defer
+2024-11-14 03:01:21,082 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:21,082 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 0
+2024-11-14 03:01:21,083 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:21,083 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-11-14 03:01:21,083 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 1
+2024-11-14 03:01:21,083 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:21,083 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 1
+2024-11-14 03:01:21,083 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:21,083 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-11-14 03:01:21,083 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 2
+2024-11-14 03:01:21,084 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:21,084 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 2
+2024-11-14 03:01:21,084 INFO    HandlerThread:353 [system_monitor.py:finish():203] Stopping system monitor
+2024-11-14 03:01:21,084 DEBUG   SystemMonitor:353 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-11-14 03:01:21,084 DEBUG   SystemMonitor:353 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-11-14 03:01:21,084 DEBUG   SystemMonitor:353 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-11-14 03:01:21,085 INFO    HandlerThread:353 [interfaces.py:finish():202] Joined cpu monitor
+2024-11-14 03:01:21,085 INFO    HandlerThread:353 [interfaces.py:finish():202] Joined disk monitor
+2024-11-14 03:01:21,091 INFO    HandlerThread:353 [interfaces.py:finish():202] Joined gpu monitor
+2024-11-14 03:01:21,091 INFO    HandlerThread:353 [interfaces.py:finish():202] Joined memory monitor
+2024-11-14 03:01:21,091 INFO    HandlerThread:353 [interfaces.py:finish():202] Joined network monitor
+2024-11-14 03:01:21,092 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:21,092 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-11-14 03:01:21,092 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 3
+2024-11-14 03:01:21,092 DEBUG   SenderThread:353 [sender.py:send():380] send: stats
+2024-11-14 03:01:21,092 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:21,092 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 3
+2024-11-14 03:01:21,093 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:21,093 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-11-14 03:01:21,093 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 4
+2024-11-14 03:01:21,093 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:21,093 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 4
+2024-11-14 03:01:21,093 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:21,093 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-11-14 03:01:21,093 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 5
+2024-11-14 03:01:21,093 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:21,094 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 5
+2024-11-14 03:01:21,094 DEBUG   SenderThread:353 [sender.py:send():380] send: summary
+2024-11-14 03:01:21,095 INFO    SenderThread:353 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-11-14 03:01:21,095 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:21,095 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-11-14 03:01:21,095 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 6
+2024-11-14 03:01:21,095 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:21,095 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 6
+2024-11-14 03:01:21,095 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:21,095 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-11-14 03:01:21,100 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: status_report
+2024-11-14 03:01:21,165 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json
+2024-11-14 03:01:21,165 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_638f1df906a42674ff26.png
+2024-11-14 03:01:21,166 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_1510a0769dc4cbdabce9.png
+2024-11-14 03:01:21,166 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_742e205a9c552e638cad.png
+2024-11-14 03:01:21,166 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_d1b75aa7f70fc19a806d.png
+2024-11-14 03:01:21,166 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_9745725945539f8f879f.png
+2024-11-14 03:01:21,167 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_37fd82fe08a894021562.png
+2024-11-14 03:01:21,167 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_8b34f284202b4a30fc7d.png
+2024-11-14 03:01:21,167 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_6c54ffe2cdf360783437.png
+2024-11-14 03:01:21,171 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_dcf0ba0a386f6dac95a6.png
+2024-11-14 03:01:21,172 INFO    Thread-12 :353 [dir_watcher.py:_on_file_created():271] file/dir created: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_d4d4454d821fc27e5454.png
+2024-11-14 03:01:21,172 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images
+2024-11-14 03:01:21,270 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 7
+2024-11-14 03:01:21,270 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:21,271 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 7
+2024-11-14 03:01:21,271 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:21,271 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-11-14 03:01:21,432 INFO    wandb-upload_6:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/qzqiv2h4-media/images/examples_9_742e205a9c552e638cad.png
+2024-11-14 03:01:21,436 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/ojql4tdy-media/images/examples_9_6c54ffe2cdf360783437.png
+2024-11-14 03:01:21,442 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/cfzilyv3-media/images/examples_9_1510a0769dc4cbdabce9.png
+2024-11-14 03:01:21,442 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/j64vt5sy-media/images/examples_9_9745725945539f8f879f.png
+2024-11-14 03:01:21,443 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/g4fqvpw9-media/images/examples_9_d1b75aa7f70fc19a806d.png
+2024-11-14 03:01:21,445 INFO    wandb-upload_10:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/xoeubepd-media/images/examples_9_37fd82fe08a894021562.png
+2024-11-14 03:01:21,458 INFO    wandb-upload_5:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/s66sda8l-media/images/examples_9_638f1df906a42674ff26.png
+2024-11-14 03:01:21,461 INFO    wandb-upload_4:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/4oz05crv-media/images/examples_9_8b34f284202b4a30fc7d.png
+2024-11-14 03:01:21,475 INFO    wandb-upload_9:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/a5eb2v1u-media/images/examples_9_dcf0ba0a386f6dac95a6.png
+2024-11-14 03:01:21,504 INFO    wandb-upload_3:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/m1edx72t-media/images/examples_9_d4d4454d821fc27e5454.png
+2024-11-14 03:01:22,081 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: poll_exit
+2024-11-14 03:01:22,167 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/config.yaml
+2024-11-14 03:01:22,167 INFO    Thread-12 :353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:22,314 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 8
+2024-11-14 03:01:22,314 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: poll_exit
+2024-11-14 03:01:22,315 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:22,315 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 8
+2024-11-14 03:01:22,315 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:22,316 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-11-14 03:01:22,316 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 9
+2024-11-14 03:01:22,316 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:22,316 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 9
+2024-11-14 03:01:22,316 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:22,316 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-11-14 03:01:22,316 INFO    SenderThread:353 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-11-14 03:01:23,082 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: poll_exit
+2024-11-14 03:01:23,169 INFO    SenderThread:353 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:23,169 INFO    SenderThread:353 [dir_watcher.py:finish():388] scan: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files
+2024-11-14 03:01:23,169 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log output.log
+2024-11-14 03:01:23,170 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/model-best.h5 model-best.h5
+2024-11-14 03:01:23,173 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/requirements.txt requirements.txt
+2024-11-14 03:01:23,174 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json wandb-summary.json
+2024-11-14 03:01:23,174 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/conda-environment.yaml conda-environment.yaml
+2024-11-14 03:01:23,175 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/config.yaml config.yaml
+2024-11-14 03:01:23,175 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-metadata.json wandb-metadata.json
+2024-11-14 03:01:23,175 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/graph/graph_summary_ad67092687004fc4b4ef.graph.json media/graph/graph_summary_ad67092687004fc4b4ef.graph.json
+2024-11-14 03:01:23,175 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_e48edb8795510763e52e.png media/images/examples_6_e48edb8795510763e52e.png
+2024-11-14 03:01:23,176 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_13bcd08261ef49f6da33.png media/images/examples_2_13bcd08261ef49f6da33.png
+2024-11-14 03:01:23,176 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_d70bd37089710c92a536.png media/images/examples_3_d70bd37089710c92a536.png
+2024-11-14 03:01:23,176 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_5b5bdd9165c2a43778e3.png media/images/examples_6_5b5bdd9165c2a43778e3.png
+2024-11-14 03:01:23,176 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_1d736c80604d211db81c.png media/images/examples_7_1d736c80604d211db81c.png
+2024-11-14 03:01:23,176 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_f6fe4bff120c31f8a1aa.png media/images/examples_8_f6fe4bff120c31f8a1aa.png
+2024-11-14 03:01:23,176 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_8b34f284202b4a30fc7d.png media/images/examples_9_8b34f284202b4a30fc7d.png
+2024-11-14 03:01:23,176 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_fa3ee14ab77813fb0f5b.png media/images/examples_8_fa3ee14ab77813fb0f5b.png
+2024-11-14 03:01:23,176 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_0aa28edfcf943378073d.png media/images/examples_6_0aa28edfcf943378073d.png
+2024-11-14 03:01:23,176 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_044767cb45d4709e97fe.png media/images/examples_4_044767cb45d4709e97fe.png
+2024-11-14 03:01:23,176 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_37fd82fe08a894021562.png media/images/examples_9_37fd82fe08a894021562.png
+2024-11-14 03:01:23,176 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_ac40476e270ee5810f83.png media/images/examples_5_ac40476e270ee5810f83.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_8d2e7de00d795e4ff509.png media/images/examples_1_8d2e7de00d795e4ff509.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_6c54ffe2cdf360783437.png media/images/examples_9_6c54ffe2cdf360783437.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_af5ef017378fd871adfb.png media/images/examples_7_af5ef017378fd871adfb.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_1c9ef78ce4ac81cc1995.png media/images/examples_5_1c9ef78ce4ac81cc1995.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_2f0c9a97f372b28b201f.png media/images/examples_1_2f0c9a97f372b28b201f.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_1510a0769dc4cbdabce9.png media/images/examples_9_1510a0769dc4cbdabce9.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_6ba0e3d9fff54b76bc1d.png media/images/examples_6_6ba0e3d9fff54b76bc1d.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_fe24688d95a80de7a934.png media/images/examples_1_fe24688d95a80de7a934.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_13c88305b5c42499e6da.png media/images/examples_1_13c88305b5c42499e6da.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_ba0383e4ba28e0364871.png media/images/examples_7_ba0383e4ba28e0364871.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_b87c86070ead80a86294.png media/images/examples_0_b87c86070ead80a86294.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_495d84f1cfc2fb4c479c.png media/images/examples_4_495d84f1cfc2fb4c479c.png
+2024-11-14 03:01:23,177 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_dc6a9661ea835da56ecd.png media/images/examples_0_dc6a9661ea835da56ecd.png
+2024-11-14 03:01:23,178 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_b66942a6df10092d319f.png media/images/examples_6_b66942a6df10092d319f.png
+2024-11-14 03:01:23,178 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_3c451909c3454d6c0edc.png media/images/examples_1_3c451909c3454d6c0edc.png
+2024-11-14 03:01:23,178 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_4d61e92522cb7c585ae1.png media/images/examples_5_4d61e92522cb7c585ae1.png
+2024-11-14 03:01:23,178 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_ca0677a725afe9d34a66.png media/images/examples_3_ca0677a725afe9d34a66.png
+2024-11-14 03:01:23,178 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_502ec349ea5c8b198895.png media/images/examples_4_502ec349ea5c8b198895.png
+2024-11-14 03:01:23,178 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_4d835c7609d691e97be8.png media/images/examples_4_4d835c7609d691e97be8.png
+2024-11-14 03:01:23,178 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_1ee6fbc49ce07d63fa88.png media/images/examples_4_1ee6fbc49ce07d63fa88.png
+2024-11-14 03:01:23,178 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_a0689e6d72b11a02aa86.png media/images/examples_0_a0689e6d72b11a02aa86.png
+2024-11-14 03:01:23,178 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_d3818a8f0d5faee313cf.png media/images/examples_1_d3818a8f0d5faee313cf.png
+2024-11-14 03:01:23,178 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_f4f6f0421bc99a30e723.png media/images/examples_3_f4f6f0421bc99a30e723.png
+2024-11-14 03:01:23,178 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_72d6bd9f29a3216dc2ad.png media/images/examples_0_72d6bd9f29a3216dc2ad.png
+2024-11-14 03:01:23,178 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_37a88e4cf6a185b429e2.png media/images/examples_8_37a88e4cf6a185b429e2.png
+2024-11-14 03:01:23,179 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_b5c5db0ecdcce5149f8d.png media/images/examples_7_b5c5db0ecdcce5149f8d.png
+2024-11-14 03:01:23,179 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_43e67071e0290e8dd412.png media/images/examples_6_43e67071e0290e8dd412.png
+2024-11-14 03:01:23,179 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_a960f0039fcc9be80246.png media/images/examples_7_a960f0039fcc9be80246.png
+2024-11-14 03:01:23,179 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_925e488f8dae617857e7.png media/images/examples_8_925e488f8dae617857e7.png
+2024-11-14 03:01:23,179 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_603f7276e11c39cea0c4.png media/images/examples_0_603f7276e11c39cea0c4.png
+2024-11-14 03:01:23,179 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_7c6862990aa497c1617d.png media/images/examples_8_7c6862990aa497c1617d.png
+2024-11-14 03:01:23,179 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_16aa141373781bf633dc.png media/images/examples_3_16aa141373781bf633dc.png
+2024-11-14 03:01:23,179 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_08fd1f935081cda2c0d3.png media/images/examples_0_08fd1f935081cda2c0d3.png
+2024-11-14 03:01:23,179 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_ecc53fec0527b18a80d6.png media/images/examples_6_ecc53fec0527b18a80d6.png
+2024-11-14 03:01:23,180 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_16277238b54d9fd935a0.png media/images/examples_8_16277238b54d9fd935a0.png
+2024-11-14 03:01:23,180 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_747014d6ce47346c7cac.png media/images/examples_2_747014d6ce47346c7cac.png
+2024-11-14 03:01:23,180 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_a4230d20d013a28fdbef.png media/images/examples_2_a4230d20d013a28fdbef.png
+2024-11-14 03:01:23,180 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_cf99faa441650e529dcc.png media/images/examples_7_cf99faa441650e529dcc.png
+2024-11-14 03:01:23,183 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_0cfda30975fbede8f948.png media/images/examples_2_0cfda30975fbede8f948.png
+2024-11-14 03:01:23,183 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_e55f718e2260f1dbcf3e.png media/images/examples_5_e55f718e2260f1dbcf3e.png
+2024-11-14 03:01:23,183 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_c156413c15480f5242f3.png media/images/examples_4_c156413c15480f5242f3.png
+2024-11-14 03:01:23,183 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_c97e7184a0d67caba5bb.png media/images/examples_6_c97e7184a0d67caba5bb.png
+2024-11-14 03:01:23,183 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_05ac5d3eec80643f8860.png media/images/examples_2_05ac5d3eec80643f8860.png
+2024-11-14 03:01:23,184 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_d66e30d7c0adbf72de8a.png media/images/examples_5_d66e30d7c0adbf72de8a.png
+2024-11-14 03:01:23,184 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_d043d7d6c1e06d2a4061.png media/images/examples_2_d043d7d6c1e06d2a4061.png
+2024-11-14 03:01:23,184 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_507c182446aadec864b8.png media/images/examples_0_507c182446aadec864b8.png
+2024-11-14 03:01:23,184 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_46382108c1055223dcf1.png media/images/examples_4_46382108c1055223dcf1.png
+2024-11-14 03:01:23,184 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_3dd4ae37353b2115549e.png media/images/examples_1_3dd4ae37353b2115549e.png
+2024-11-14 03:01:23,184 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_6a5d31c12a4d246dc544.png media/images/examples_4_6a5d31c12a4d246dc544.png
+2024-11-14 03:01:23,184 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_d8c5a5207452862f4f3c.png media/images/examples_8_d8c5a5207452862f4f3c.png
+2024-11-14 03:01:23,184 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_ab05b4b99b8e33415846.png media/images/examples_1_ab05b4b99b8e33415846.png
+2024-11-14 03:01:23,184 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_10052280c962bd6b3772.png media/images/examples_2_10052280c962bd6b3772.png
+2024-11-14 03:01:23,184 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_c779294dcbdea2257ee7.png media/images/examples_5_c779294dcbdea2257ee7.png
+2024-11-14 03:01:23,185 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_68e6ae387be5df45e883.png media/images/examples_4_68e6ae387be5df45e883.png
+2024-11-14 03:01:23,190 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_81452c835dd39200044e.png media/images/examples_7_81452c835dd39200044e.png
+2024-11-14 03:01:23,190 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_742e205a9c552e638cad.png media/images/examples_9_742e205a9c552e638cad.png
+2024-11-14 03:01:23,191 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_8c1781bc7c85128e5020.png media/images/examples_3_8c1781bc7c85128e5020.png
+2024-11-14 03:01:23,193 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_eba1799972cf5f89d955.png media/images/examples_6_eba1799972cf5f89d955.png
+2024-11-14 03:01:23,194 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_54d106d9266df32ebc3f.png media/images/examples_1_54d106d9266df32ebc3f.png
+2024-11-14 03:01:23,194 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_49908148000d0585d930.png media/images/examples_3_49908148000d0585d930.png
+2024-11-14 03:01:23,194 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_9bc277f084558768bf97.png media/images/examples_5_9bc277f084558768bf97.png
+2024-11-14 03:01:23,194 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_1e0005b99e3587b65b06.png media/images/examples_5_1e0005b99e3587b65b06.png
+2024-11-14 03:01:23,194 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_fc06794076949ec2348a.png media/images/examples_3_fc06794076949ec2348a.png
+2024-11-14 03:01:23,195 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_0cf4645d1d7cf3e08c71.png media/images/examples_2_0cf4645d1d7cf3e08c71.png
+2024-11-14 03:01:23,195 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_ddfbcc559303cb08e17b.png media/images/examples_5_ddfbcc559303cb08e17b.png
+2024-11-14 03:01:23,195 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_9745725945539f8f879f.png media/images/examples_9_9745725945539f8f879f.png
+2024-11-14 03:01:23,195 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_678d9a9805cb457ac4f4.png media/images/examples_7_678d9a9805cb457ac4f4.png
+2024-11-14 03:01:23,195 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_9745725945539f8f879f.png media/images/examples_0_9745725945539f8f879f.png
+2024-11-14 03:01:23,195 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_9813d2fa009153069609.png media/images/examples_3_9813d2fa009153069609.png
+2024-11-14 03:01:23,195 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_5a515f45d8930ff9064b.png media/images/examples_0_5a515f45d8930ff9064b.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_2ff85d98caeeca7a888e.png media/images/examples_8_2ff85d98caeeca7a888e.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_dcf0ba0a386f6dac95a6.png media/images/examples_9_dcf0ba0a386f6dac95a6.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_37ce4c80e3ccebd4d458.png media/images/examples_7_37ce4c80e3ccebd4d458.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_df2c4e98bc8832d042fb.png media/images/examples_2_df2c4e98bc8832d042fb.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_ebb24ef0df54af5c9253.png media/images/examples_8_ebb24ef0df54af5c9253.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_d4d4454d821fc27e5454.png media/images/examples_9_d4d4454d821fc27e5454.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_638f1df906a42674ff26.png media/images/examples_9_638f1df906a42674ff26.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_4_c23afd9dc2dd81c239a6.png media/images/examples_4_c23afd9dc2dd81c239a6.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_1ec13016d037488ee026.png media/images/examples_3_1ec13016d037488ee026.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_5_49d6ceaf0fe6aa343d3b.png media/images/examples_5_49d6ceaf0fe6aa343d3b.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_1_ffd9da07c3315c0f0b63.png media/images/examples_1_ffd9da07c3315c0f0b63.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_3_14aebde157b78143b447.png media/images/examples_3_14aebde157b78143b447.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_8_b07e7d477752f5234304.png media/images/examples_8_b07e7d477752f5234304.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_2_0da1da97de64dbdd0238.png media/images/examples_2_0da1da97de64dbdd0238.png
+2024-11-14 03:01:23,196 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_0_5ecaf860d67f4cc1e1fb.png media/images/examples_0_5ecaf860d67f4cc1e1fb.png
+2024-11-14 03:01:23,197 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_6_1e2e7ac764a3d04975d5.png media/images/examples_6_1e2e7ac764a3d04975d5.png
+2024-11-14 03:01:23,197 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_9_d1b75aa7f70fc19a806d.png media/images/examples_9_d1b75aa7f70fc19a806d.png
+2024-11-14 03:01:23,197 INFO    SenderThread:353 [dir_watcher.py:finish():402] scan save: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/media/images/examples_7_a48756e2f502baad8bef.png media/images/examples_7_a48756e2f502baad8bef.png
+2024-11-14 03:01:23,197 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 10
+2024-11-14 03:01:23,197 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: poll_exit
+2024-11-14 03:01:23,197 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:23,197 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 10
+2024-11-14 03:01:23,198 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:23,198 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-11-14 03:01:23,198 INFO    SenderThread:353 [file_pusher.py:finish():175] shutting down file pusher
+2024-11-14 03:01:23,386 INFO    wandb-upload_7:353 [upload_job.py:push():131] Uploaded file /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/output.log
+2024-11-14 03:01:23,386 INFO    wandb-upload_8:353 [upload_job.py:push():131] Uploaded file /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/wandb-summary.json
+2024-11-14 03:01:23,399 INFO    wandb-upload_1:353 [upload_job.py:push():131] Uploaded file /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/requirements.txt
+2024-11-14 03:01:23,399 INFO    wandb-upload_0:353 [upload_job.py:push():131] Uploaded file /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/config.yaml
+2024-11-14 03:01:23,453 INFO    wandb-upload_2:353 [upload_job.py:push():131] Uploaded file /tmp/tmpn9v0agk2wandb/3z4kyfpb-model-best.h5
+2024-11-14 03:01:23,653 INFO    Thread-11 :353 [sender.py:transition_state():613] send defer: 11
+2024-11-14 03:01:23,654 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:23,654 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 11
+2024-11-14 03:01:23,654 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:23,655 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-11-14 03:01:23,655 INFO    SenderThread:353 [file_pusher.py:join():181] waiting for file pusher
+2024-11-14 03:01:23,655 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 12
+2024-11-14 03:01:23,655 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:23,655 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 12
+2024-11-14 03:01:23,656 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:23,656 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-11-14 03:01:23,656 INFO    SenderThread:353 [file_stream.py:finish():595] file stream finish called
+2024-11-14 03:01:23,781 INFO    SenderThread:353 [file_stream.py:finish():599] file stream finish is done
+2024-11-14 03:01:23,781 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 13
+2024-11-14 03:01:23,781 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:23,782 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 13
+2024-11-14 03:01:23,782 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:23,782 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-11-14 03:01:23,782 INFO    SenderThread:353 [sender.py:transition_state():613] send defer: 14
+2024-11-14 03:01:23,782 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: defer
+2024-11-14 03:01:23,782 INFO    HandlerThread:353 [handler.py:handle_request_defer():172] handle defer: 14
+2024-11-14 03:01:23,783 DEBUG   SenderThread:353 [sender.py:send():380] send: final
+2024-11-14 03:01:23,783 DEBUG   SenderThread:353 [sender.py:send():380] send: footer
+2024-11-14 03:01:23,783 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: defer
+2024-11-14 03:01:23,783 INFO    SenderThread:353 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-11-14 03:01:23,784 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: poll_exit
+2024-11-14 03:01:23,784 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: poll_exit
+2024-11-14 03:01:23,787 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: internal_messages
+2024-11-14 03:01:23,788 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: server_info
+2024-11-14 03:01:23,789 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: server_info
+2024-11-14 03:01:23,829 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: get_summary
+2024-11-14 03:01:23,829 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: sampled_history
+2024-11-14 03:01:23,830 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: job_info
+2024-11-14 03:01:23,846 DEBUG   SenderThread:353 [sender.py:send_request():407] send_request: job_info
+2024-11-14 03:01:23,870 DEBUG   HandlerThread:353 [handler.py:handle_request():146] handle_request: shutdown
+2024-11-14 03:01:23,871 INFO    HandlerThread:353 [handler.py:finish():866] shutting down handler
+2024-11-14 03:01:24,831 INFO    WriterThread:353 [datastore.py:close():294] close: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/run-f6fvg8rl.wandb
+2024-11-14 03:01:24,846 INFO    SenderThread:353 [sender.py:finish():1536] shutting down sender
+2024-11-14 03:01:24,846 INFO    SenderThread:353 [file_pusher.py:finish():175] shutting down file pusher
+2024-11-14 03:01:24,846 INFO    SenderThread:353 [file_pusher.py:join():181] waiting for file pusher

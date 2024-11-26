@@ -1,0 +1,67 @@
+{
+    "os": "Linux-6.1.100+-x86_64-with-glibc2.31",
+    "python": "3.9.7",
+    "heartbeatAt": "2024-11-14T03:07:01.414020",
+    "startedAt": "2024-11-14T03:07:00.912875",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "aiffel/AIFFEL_quest_cr/MainQuest/Quest06/Untitled.ipynb",
+    "codePathLocal": null,
+    "root": "/aiffel/aiffel/AIFFEL_quest_cr",
+    "git": {
+        "remote": "https://github.com/KangPixel/AIFFEL_quest_cr.git",
+        "commit": "f1f2174faad3c6f8fdea9d5e9aa330f0c7aa2e80"
+    },
+    "email": null,
+    "host": "wi5qv55j3qbt9rjdre8tla94b-6454f686b8-sr7rp",
+    "username": "root",
+    "executable": "/opt/conda/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2199.998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2199.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2199.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2199.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2199.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 121.81595230102539,
+            "used": 42.865291595458984
+        }
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 16106127360
+        }
+    ],
+    "memory": {
+        "total": 17.572715759277344
+    }
+}

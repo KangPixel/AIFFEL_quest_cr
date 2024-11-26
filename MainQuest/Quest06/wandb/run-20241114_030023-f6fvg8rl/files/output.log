@@ -1,0 +1,39 @@
+Epoch 1/10
+
+
+1875/1875 [==============================] - 6s 3ms/step - loss: 2.3385 - accuracy: 0.1046 - val_loss: 2.3060 - val_accuracy: 0.0976
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/model-best)... Done. 0.0s
+Epoch 2/10
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3095 - accuracy: 0.1025 - val_loss: 2.3074 - val_accuracy: 0.1034
+Epoch 3/10
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3091 - accuracy: 0.1063 - val_loss: 2.3073 - val_accuracy: 0.1034
+Epoch 4/10
+
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3095 - accuracy: 0.1035 - val_loss: 2.3074 - val_accuracy: 0.0960
+Epoch 5/10
+
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3103 - accuracy: 0.1011 - val_loss: 2.3133 - val_accuracy: 0.0960
+Epoch 6/10
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3097 - accuracy: 0.1044 - val_loss: 2.3085 - val_accuracy: 0.1130
+Epoch 7/10
+
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3094 - accuracy: 0.1041 - val_loss: 2.3057 - val_accuracy: 0.0960
+INFO:tensorflow:Assets written to: /aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/model-best/assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (/aiffel/aiffel/AIFFEL_quest_cr/MainQuest/Quest06/wandb/run-20241114_030023-f6fvg8rl/files/model-best)... Done. 0.0s
+Epoch 8/10
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3094 - accuracy: 0.1050 - val_loss: 2.3248 - val_accuracy: 0.0920
+Epoch 9/10
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3097 - accuracy: 0.1042 - val_loss: 2.3193 - val_accuracy: 0.1130
+Epoch 10/10
+
+1875/1875 [==============================] - 5s 3ms/step - loss: 2.3100 - accuracy: 0.1054 - val_loss: 2.3137 - val_accuracy: 0.1130
+157/157 - 0s - loss: 2.3129 - accuracy: 0.1140
